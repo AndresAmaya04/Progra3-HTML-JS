@@ -103,25 +103,45 @@
     <h6 class="text-center"><strong>300 ML</strong></h6>
     <br>
     <h1 class="display-6 text-center"> Información nutrimental </h1>
-    <ul class="list-group list-group-flush" style="margin-left: 300px;margin-right: 300px">
-        <li class="list-group-item"><h6 class="text-start">Calorias</h6><h6 class="text-end">125 kcal</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Grasas</h6><h6 class="text-end">0 g</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Grasa Total Diario</h6><h6 class="text-end">0 %</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Grasa Saturada</h6><h6 class="text-end">0 g</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Grasa Saturada Diario</h6><h6 class="text-end">0 %</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Carbohidratos totales</h6><h6 class="text-end">31 g</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Carbohidratos Totales Diarios</h6><h6 class="text-end">10 %</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Azúcares Totales</h6><h6 class="text-end">31 g</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Azúcares Totales Diarios</h6><h6 class="text-end"> * </h6></li>
-        <li class="list-group-item"><h6 class="text-start">Proteina</h6><h6 class="text-end">0 g</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Proteína Diaria</h6><h6 class="text-end">0 %</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Sodio</h6><h6 class="text-end">15 mg</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Sodio Diario</h6><h6 class="text-end">1 %</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Colesterol</h6><h6 class="text-end">0 mg</h6></li>
-        <li class="list-group-item"><h6 class="text-start">Colesterol Diario</h6><h6 class="text-end">0 %</h6></li>
-        <li class="list-group-item"><h6 class="text-center">Los porcentajes de valor diario son calculados en base a una dieta diaria de 8380 Kj (2000 calorías)</h6></li>
+    <div class="grid">
+        <div class="g-col-6 g-col-md-4" style="display: inline-grid;">
+            <ul>
+                <li class="list-group-item" id="item_change0" onclick="change()"><h6 class="text-start">Calorias</h6><h6 class="text-end">125 kcal</h6></li>
+                <li class="list-group-item" id="item_change1" onclick="change()"><h6 class="text-start">Grasas</h6><h6 class="text-end">0 g</h6></li>
+                <li class="list-group-item" id="item_change2" onclick="change()"><h6 class="text-start">Grasa Total Diario</h6><h6 class="text-end">0 %</h6></li>
+                <li class="list-group-item" id="item_change3" onclick="change()"><h6 class="text-start">Grasa Saturada</h6><h6 class="text-end">0 g</h6></li>
+                <li class="list-group-item" id="item_change4" onclick="change()"><h6 class="text-start">Grasa Saturada Diario</h6><h6 class="text-end">0 %</h6></li>
+                <li class="list-group-item" id="item_change5" onclick="change()"><h6 class="text-start">Carbohidratos totales</h6><h6 class="text-end">31 g</h6></li>
+            </ul>
+        </div>
+        <div class="g-col-6 g-col-md-4" style="display: inline-grid;">
+            <ul>
+                <li class="list-group-item" id="item_change6" onclick="change()"><h6 class="text-start">Azúcares Totales</h6><h6 class="text-end">31 g</h6></li>
+                <li class="list-group-item" id="item_change7" onclick="change()"><h6 class="text-start">Carbohidratos Totales</h6><h6 class="text-end">10 %</h6></li>
+                <li class="list-group-item" id="item_change8" onclick="change()"><h6 class="text-start">Azúcares Totales Diarios</h6><h6 class="text-end"> * </h6></li>
+                <li class="list-group-item" id="item_change9" onclick="change()"><h6 class="text-start">Proteina</h6><h6 class="text-end">0 g</h6></li>
+                <li class="list-group-item" id="item_change10" onclick="change()"><h6 class="text-start">Proteína Diaria</h6><h6 class="text-end">0 %</h6></li> 
+            </ul>   
+        </div>
+        <div class="g-col-6 g-col-md-4" style="display: inline-grid;">
+            <ul>
+                <li class="list-group-item" id="item_change11" onclick="change()"><h6 class="text-start">Sodio</h6><h6 class="text-end">15 mg</h6></li>
+                <li class="list-group-item" id="item_change12" onclick="change()"><h6 class="text-start">Sodio Diario</h6><h6 class="text-end">1 %</h6></li>
+                <li class="list-group-item" id="item_change13" onclick="change()"><h6 class="text-start">Colesterol</h6><h6 class="text-end">0 mg</h6></li>
+                <li class="list-group-item" id="item_change14" onclick="change()"><h6 class="text-start">Colesterol Diario</h6><h6 class="text-end">0 %</h6></li>     
+                <li class="list-group-item" id="item_change15" onclick="change()"><h6 class="text-start">Potasio</h6><h6 class="text-end">2 %</h6></li>
+            </ul>
+        </div>
+        <div class="g-col-6 g-col-md-4" style="display: inline-grid;">   
+            <ul>
+                <li class="list-group-item" id="item_change17" onclick="change()"><h6 class="text-start">Azucar Glass</h6><h6 class="text-end">4 %</h6></li>
+                <li class="list-group-item" id="item_change18" onclick="change()"><h6 class="text-start">H2O</h6><h6 class="text-end">5 %</h6></li>
+                <li class="list-group-item" id="item_change19" onclick="change()"><h6 class="text-start">H2O2</h6><h6 class="text-end">6 %</h6></li>
+                <li class="list-group-item" id="item_change20" onclick="change()"><h6 class="text-center">Los porcentajes de valor diario son calculados en base a una dieta diaria de 8380 Kj (2000 calorías)</h6></li>
+            </ul>
+        </div>
     </ul>
-
+    </div>
 </div>
 
 <div>
